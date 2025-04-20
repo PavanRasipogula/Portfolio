@@ -15,7 +15,7 @@ const Contact = () => {
         <div className="social-icons">
           <a href="https://www.linkedin.com/in/PavanRasipogula"><i className="fab fa-linkedin-in"></i></a>
           <a href="https://github.com/PavanRasipogula"><i className="fab fa-github"></i></a>
-          <a href="https://www.instagram.com/PavanRasipogula"><i className="fab fa-instagram"></i></a>
+          <a href="https://www.instagram.com/Pavan_Rasipogula"><i className="fab fa-instagram"></i></a>
           <a href="https://x.com/PavanRasipogula"><i className="fab fa-twitter"></i></a>
           <a href="mailto:justmailtopavankumar@gmail.com"><i className="fas fa-envelope"></i></a>
         </div>
