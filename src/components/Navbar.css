@@ -18,6 +18,7 @@
   color: #000000;
   white-space: nowrap;
   padding-top: 7px;
+  animation: slideIn 3s ease forwards;
 }
 
 .nav-links {
@@ -133,5 +134,15 @@
 
   .nav-links {
     justify-content: center;
+  }
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
 }

@@ -7,19 +7,22 @@
   min-height: 100vh;
   background: #f1f5f9;
   gap: 1rem;
+  transition: transform 0.5s ease;
+  animation: slideIn 3s ease forwards;
 }
-
+.hero:hover {
+  transform: perspective(1200px) rotateX(2deg) rotateY(2deg) scale(1.01);
+}
 .hero-left {
   flex: 1 1 300px;
 }
 
 .hero-hello {
-  font-family: 'Parisienne', cursive;
+  font-family: "Parisienne", cursive;
   font-size: 2.5rem;
   color: #2f2f2f;
   margin-bottom: 0.5rem;
   font-weight: 900;
-  
 }
 
 .hero-name {
@@ -27,6 +30,10 @@
   font-weight: 800;
   color: #1f1f1f;
   margin: 0;
+  transition: transform 0.4s ease;
+}
+.hero-name:hover {
+  transform: scale(1.05); /* <<< Slight zoom effect on hover */
 }
 
 .hero-tagline {
@@ -55,8 +62,11 @@
   box-shadow: 9px 9px 16px #efeded, -9px -9px 16px #fffcfc;
   padding: 2rem;
   border-radius: 50%;
+  transition: transform 0.4s ease;
 }
-
+.hero-image-wrapper:hover {
+  transform: rotate(7deg) scale(1.05); /* <<< Rotate + Scale little bit */
+}
 .hero-image {
   width: 280px;
   height: 280px;
@@ -111,5 +121,16 @@
   .hero-tagline {
     font-size: 0.9rem;
     font-weight: bold;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
