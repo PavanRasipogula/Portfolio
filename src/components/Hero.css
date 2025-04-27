@@ -7,12 +7,12 @@
   min-height: 100vh;
   background: #f1f5f9;
   gap: 1rem;
-  transition: transform 0.5s ease;
-  animation: slideIn 3s ease forwards;
+  /* transition: transform 0.5s ease;
+  animation: slideIn 3s ease forwards; */
 }
-.hero:hover {
+/* .hero:hover {
   transform: perspective(1200px) rotateX(2deg) rotateY(2deg) scale(1.01);
-}
+} */
 .hero-left {
   flex: 1 1 300px;
 }
