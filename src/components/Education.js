@@ -57,6 +57,38 @@ const Education = () => {
           </li>
         </ul>
       </div>
+
+      {/* {ITS Expireince } */}
+
+      <h2 className="education-heading">Work Experience</h2>
+      <div className="internship-card">
+        <h3 className="edu-degree">NOBROKER Data Analyst</h3>
+        <h5 className="">Feb 2024 – Present</h5>
+        <ul className="internship-points">
+          <li>
+            Work in the Operations team to support large-scale market research
+            and data processing tasks.
+          </li>
+          <li>
+            Perform data collation, cleansing, analysis, and interpretation to
+            ensure timely and high-quality delivery to clients.
+          </li>
+          <li>
+            Use Excel and other tools to manage, validate, and visualize high
+            volumes of structured consumer data.
+          </li>
+          <li>
+            Collaborate with cross-functional teams to deliver insightful and
+            accurate market intelligence. Adapt to flexible shifts and ensure
+            deadline-driven data operations with a focus on quality and
+            efficiency.
+          </li>
+          <li>
+            Strong communication and problem-solving skills applied in a
+            fast-paced analytical environment.
+          </li>
+        </ul>
+      </div>
     </section>
   );
 };
