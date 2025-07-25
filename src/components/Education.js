@@ -58,8 +58,8 @@ const Education = () => {
         </ul>
       </div>
 
-      {/* {ITS Expireince } */}
-
+      {ITS Expireince }
+{/* 
       <h2 className="education-heading">Work Experience</h2>
       <div className="internship-card">
         <h3 className="edu-degree">NOBROKER Data Analyst</h3>
@@ -88,7 +88,7 @@ const Education = () => {
             fast-paced analytical environment.
           </li>
         </ul>
-      </div>
+      </div> */}
     </section>
   );
 };
