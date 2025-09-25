@@ -4,6 +4,40 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
+    title: " Plant Leaf Disease Prediction",
+    description:
+      "Built a web-based application to detect plant leaf diseases using image classification techniques.Utilized computer vision and a trained ML model to classify disease from uploaded leaf images.",
+    technologies: [
+      "Python",
+      "ML",
+      "Computer Vision",
+      "Image Processing",
+      "Git",
+    ],
+    github: "https://github.com/PavanRasipogula/Final-Pro",
+    website: "#",
+  },
+  {
+    title: "Retail Sales Analysis & Dashboard",
+    description:
+      "Collected and cleaned large sales datasets using SQL queries to extract customer and transaction records.Applied Python (Pandas & Matplotlib) for trend analysis: seasonal demand, revenue growth, top-selling items",
+    technologies: ["Python (Pandas, Matplotlib)", "SQL", "Excel"],
+    github: "https://github.com/PavanRasipogula ",
+    website: "#",
+  },
+  {
+    title: "Financial Data Cleaning & Forecasting",
+    description:
+      "Imported raw financial transaction data from SQL into Excel and applied Power Query for cleaning.Used Python to analyze monthly revenue, expenses, and profit margins.",
+    technologies: [
+      "Python (Pandas, Matplotlib)",
+      "SQL",
+      "Excel (Power Query, Forecasting)",
+    ],
+    github: "https://github.com/PavanRasipogula ",
+    website: "#",
+  },
+  {
     title: "Face Recognition Attendance System",
     description:
       "Developed a smart attendance system using face recognition with OpenCV and machine learning.  Enabled real-time facial recognition for marking attendance, reducing manual errors and proxy.",
@@ -18,20 +52,7 @@ const projects = [
     github: "https://github.com/yourusername/face-attendance",
     website: "#",
   },
-  {
-    title: " Plant Leaf Disease Prediction",
-    description:
-      "Built a web-based application to detect plant leaf diseases using image classification techniques.Utilized computer vision and a trained ML model to classify disease from uploaded leaf images.",
-    technologies: [
-      "Python",
-      "ML",
-      "Computer Vision",
-      "Image Processing",
-      "Git",
-    ],
-    github: "https://github.com/PavanRasipogula/Final-Pro",
-    website: "#",
-  },
+
   {
     title: "Online Library Management System",
     description:

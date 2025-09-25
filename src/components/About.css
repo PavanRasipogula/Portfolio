@@ -48,6 +48,12 @@
   margin-right: 0.5rem;
   font-weight: bold;
 }
+.section-number1 {
+  color: hsl(25, 95%, 53%);
+  font-size: 18px;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
 
 .me {
   color: hsl(25, 95%, 53%);
@@ -61,6 +67,7 @@
   color: #2f2f2f;
   margin-bottom: 1rem;
   line-height: 1.7;
+  text-align: justify;
 }
 
 .about-subheading {
