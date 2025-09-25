@@ -34,7 +34,7 @@ const projects = [
       "SQL",
       "Excel (Power Query, Forecasting)",
     ],
-    github: "https://github.com/PavanRasipogula ",
+    github: "https://github.com/PavanRasipogula",
     website: "#",
   },
   {

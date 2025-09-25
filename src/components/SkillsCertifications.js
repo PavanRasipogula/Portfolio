@@ -35,7 +35,7 @@ const SkillsCertifications = () => {
               <strong>Other:</strong> REST APIs, Version Control
             </li>
             <li>
-              <strong>Data Visualization:</strong> Power BI
+              <strong>Data Visualization:</strong> Power BI and Tableau
             </li>
           </ul>
         </div>
