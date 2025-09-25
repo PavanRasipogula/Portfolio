@@ -12,7 +12,7 @@ const Hero = () => {
         </h1>
         <p className="hero-tagline">
           A PASSIONATE DATA ANALYST || PYTHON DEVELOPER ||
-          <span className="highlight"> WEB DEVELOPER || SOFTWARE DEVELOPER</span>
+          <span className="highlight">WEB DEVELOPER || SOFTWARE DEVELOPER</span>
         </p>
       </div>
       <div className="hero-right">
