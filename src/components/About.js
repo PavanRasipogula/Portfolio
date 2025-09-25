@@ -25,7 +25,7 @@ const About = () => {
 
         <p className="about-text">
           An enthusiastic and results-driven
-          <b> Data Analyst and Software Developer </b>
+          <b> Data Analyst and Software Developer and Web Developer </b>
           with a strong foundation in Python, Full Stack Web Development, and
           <b> Data Analytics.</b> I have completed my <b> M.Tech </b>and hold a
           <b> B.Tech </b>in Computer Science and Engineering (CSE) from Vemu
